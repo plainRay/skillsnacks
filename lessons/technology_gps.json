@@ -1,0 +1,14 @@
+{
+  "slug": "how-gps-works",
+  "title": "How Does GPS Work?",
+  "category": "technology",
+  "time": "5 minutes",
+  "why": "Explains how your phone figures out where you are using satellites and timing.",
+  "ideas": [
+    "GPS relies on satellites broadcasting timing signals.",
+    "Your device calculates distance based on how long signals take to arrive.",
+    "Using multiple satellites, it estimates your position on Earth."
+  ],
+  "hook": "Your location on a map depends on incredibly precise timing from space.",
+  "topics": []
+}
