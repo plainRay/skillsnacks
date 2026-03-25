@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Not Found | SkillSnacks{% endblock %}
+
+{% block content %}
+  <section class="panel">
+    <p class="eyebrow">404</p>
+    <h1>Page not found</h1>
+    <p class="lede">The lesson or topic you asked for does not exist.</p>
+    <a class="text-link" href="{{ url_for('home') }}">Return home</a>
+  </section>
+{% endblock %}

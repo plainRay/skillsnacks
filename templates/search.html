@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Search | SkillSnacks{% endblock %}
+
+{% block content %}
+  <section class="panel">
+    <p class="eyebrow">Search the lesson library</p>
+    <h1>Search</h1>
+
+    {% if query %}
+      <p class="lede">Showing results for “{{ query }}”.</p>
+      {% if results %}
+        <div class="lesson-grid">
+          {% for lesson in results %}
+            <a class="lesson-card" href="{{ url_for('lesson', slug=lesson.slug) }}">
+              <strong>{{ lesson.title }}</strong>
+              <span class="lesson-card__time">⏱ {{ lesson.reading_time }}</span>
+              <p>{{ lesson.summary }}</p>
+            </a>
+          {% endfor %}
+        </div>
+      {% else %}
+        <p>No lessons matched that search yet.</p>
+      {% endif %}
+    {% else %}
+      <p>Search across lesson titles, key ideas, and curiosity hooks.</p>
+    {% endif %}
+  </section>
+{% endblock %}

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}{{ topic.title }} | SkillSnacks{% endblock %}
+
+{% block content %}
+  <section class="panel">
+    <p class="eyebrow">Topic track</p>
+    <h1>{{ topic.title }}</h1>
+    <p class="lede">{{ topic.description }}</p>
+
+    <section
+      class="topic-progress-panel"
+      data-topic-progress
+      data-topic-id="{{ topic.topic_id }}"
+      data-topic-total="{{ topic.ordered_lessons|length }}"
+      data-topic-lessons="{{ topic.ordered_lessons | map(attribute='slug') | join(',') }}"
+    >
+      <p class="topic-progress-title" data-topic-progress-text>{{ topic.title }}: 0 / {{ topic.ordered_lessons|length }} lessons completed</p>
+      <div class="topic-progress-bar" aria-hidden="true">
+        <span data-topic-progress-fill></span>
+      </div>
+    </section>
+
+    <div class="stack-list">
+      {% for lesson in topic.ordered_lessons %}
+        <a class="stack-card" href="{{ url_for('lesson', slug=lesson.slug) }}">
+          <strong>{{ loop.index }}. {{ lesson.title }}</strong>
+          <span>{{ lesson.category|title }} • {{ lesson.reading_time }}</span>
+          <span>{{ lesson.summary }}</span>
+        </a>
+      {% endfor %}
+    </div>
+
+    {% if topic.missing_lessons %}
+      <section class="notice">
+        <strong>Missing lesson references were ignored:</strong>
+        <span>{{ topic.missing_lessons|join(', ') }}</span>
+      </section>
+    {% endif %}
+  </section>
+{% endblock %}

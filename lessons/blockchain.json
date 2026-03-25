@@ -1,0 +1,20 @@
+{
+  "slug": "blockchain",
+  "title": "Blockchain",
+  "topic": "technology",
+  "reading_time": "2 min",
+  "puzzle": "Why do people describe blockchain as a trust machine?",
+  "insight": "A blockchain records transactions in linked blocks shared across a network, making it hard to alter old records without broad agreement.",
+  "key_ideas": [
+    "Copies of the ledger exist across many computers.",
+    "New entries are added through network rules, not one central owner.",
+    "Its strengths and costs depend on the design of the chain."
+  ],
+  "mind_blower": "Blockchain tries to replace some forms of institutional trust with software rules and shared verification.",
+  "next_curiosity": "If blockchains can record value, what kinds of problems are they actually good at solving?",
+  "next_lessons": [
+    "quantum-computing",
+    "semiconductor-fabs"
+  ],
+  "narration_text": "Why do people describe blockchain as a trust machine? A blockchain records transactions in linked blocks shared across a network, making it hard to alter old records without broad agreement. Copies of the ledger exist across many computers. New entries are added through network rules, not one central owner. Its strengths and costs depend on the design of the chain. Blockchain tries to replace some forms of institutional trust with software rules and shared verification. If blockchains can record value, what kinds of problems are they actually good at solving?"
+}

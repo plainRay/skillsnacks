@@ -1,0 +1,96 @@
+{% extends "base.html" %}
+
+{% block title %}SkillSnacks | Home{% endblock %}
+
+{% block content %}
+  <section class="hero">
+    <div>
+      <p class="eyebrow">Micro-learning that stays light</p>
+      <h1>Build a daily curiosity habit one short lesson at a time.</h1>
+      <p class="lede">
+        Browse by category, follow curated topics, revisit your last lesson, or let SkillSnacks pick something for today.
+      </p>
+      <div class="hero-actions">
+        <a class="action-button" href="{{ url_for('surprise') }}">🎲 Surprise Me</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel panel--snack">
+    <div class="section-heading">
+      <h2>Today's Snack</h2>
+    </div>
+    {% if daily_lesson %}
+      <div class="daily-snack-card">
+        <div>
+          <p class="eyebrow">📅 Daily Pick</p>
+          <h3>{{ daily_lesson.title }}</h3>
+          <p class="snack-meta">⏱ {{ daily_lesson.reading_time }}</p>
+          <p class="snack-description">{{ daily_lesson.summary }}</p>
+        </div>
+        <a class="action-button" href="{{ url_for('daily') }}">Start Learning</a>
+      </div>
+    {% else %}
+      <p>No daily lesson is available yet.</p>
+    {% endif %}
+  </section>
+
+  <section class="panel goal-panel" data-daily-goal-panel data-today="{{ today_string }}">
+    <div class="goal-grid">
+      <div>
+        <p class="eyebrow">Curiosity Streak</p>
+        <p class="goal-value" data-streak-count>🔥 0 Day Curiosity Streak</p>
+      </div>
+      <div>
+        <p class="eyebrow">Today's Goal</p>
+        <p class="goal-value" data-daily-goal>0 / 3 lessons</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="continue-learning" class="panel is-hidden" data-continue-learning>
+    <div class="section-heading">
+      <h2>Continue Learning</h2>
+    </div>
+    <a class="lesson-card lesson-card--continue" href="#" data-continue-link>
+      <strong data-continue-title>Last lesson</strong>
+      <span data-continue-meta>Open your saved lesson</span>
+    </a>
+  </section>
+
+  <section class="panel">
+    <div class="section-heading">
+      <h2>Topics</h2>
+    </div>
+    <div class="topic-domain-grid">
+      {% for group in topic_groups %}
+        <section class="domain-card">
+          <h3>{{ group.domain }}</h3>
+          <div class="stack-list">
+            {% for topic in group.topics %}
+              <a class="stack-card" href="{{ url_for('topic', topic_id=topic.topic_id) }}">
+                <strong>{{ topic.title }}</strong>
+                <span>{{ topic.description }}</span>
+              </a>
+            {% endfor %}
+          </div>
+        </section>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="section-heading">
+      <h2>Explore Lessons</h2>
+    </div>
+    <div class="lesson-grid">
+      {% for lesson in lesson_cards %}
+        <a class="lesson-card" href="{{ url_for('lesson', slug=lesson.slug) }}">
+          <strong>{{ lesson.title }}</strong>
+          <span class="lesson-card__time">⏱ {{ lesson.reading_time }}</span>
+          <p>{{ lesson.summary }}</p>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}

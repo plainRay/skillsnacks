@@ -1,0 +1,20 @@
+{
+  "slug": "fiber-optics",
+  "title": "Fiber Optics",
+  "topic": "technology",
+  "reading_time": "2 min",
+  "puzzle": "How does so much of the internet travel through thin strands of glass?",
+  "insight": "Fiber-optic cables send information as pulses of light bouncing through glass with remarkably low loss, allowing huge amounts of data to travel long distances.",
+  "key_ideas": [
+    "Light can carry data extremely fast.",
+    "Glass fibers reduce signal loss compared with many older methods.",
+    "Undersea fiber links continents together."
+  ],
+  "mind_blower": "Much of modern communication depends on light racing through cables hidden under oceans and streets.",
+  "next_curiosity": "If information travels as light, what determines how much data one cable can carry?",
+  "next_lessons": [
+    "transistor",
+    "internet-origin"
+  ],
+  "narration_text": "How does so much of the internet travel through thin strands of glass? Fiber-optic cables send information as pulses of light bouncing through glass with remarkably low loss, allowing huge amounts of data to travel long distances. Light can carry data extremely fast. Glass fibers reduce signal loss compared with many older methods. Undersea fiber links continents together. Much of modern communication depends on light racing through cables hidden under oceans and streets. If information travels as light, what determines how much data one cable can carry?"
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "operating-systems",
+  "title": "Operating Systems",
+  "topic": "technology",
+  "reading_time": "2 min",
+  "puzzle": "Why does a computer need an operating system instead of just apps?",
+  "insight": "An operating system manages memory, files, devices, and scheduling so software can run without directly handling every hardware detail.",
+  "key_ideas": [
+    "It acts as the coordinator between programs and hardware.",
+    "It decides how system resources are shared.",
+    "Without it, each program would need much deeper machine control."
+  ],
+  "mind_blower": "Most of what feels like a simple device experience is actually a constant negotiation managed by the operating system.",
+  "next_curiosity": "If operating systems organize everything, what happens when they fail or get compromised?",
+  "next_lessons": [
+    "fiber-optics",
+    "transistor"
+  ],
+  "narration_text": "Why does a computer need an operating system instead of just apps? An operating system manages memory, files, devices, and scheduling so software can run without directly handling every hardware detail. It acts as the coordinator between programs and hardware. It decides how system resources are shared. Without it, each program would need much deeper machine control. Most of what feels like a simple device experience is actually a constant negotiation managed by the operating system. If operating systems organize everything, what happens when they fail or get compromised?"
+}

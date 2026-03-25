@@ -1,0 +1,20 @@
+{
+  "slug": "transistor",
+  "title": "The Transistor",
+  "topic": "technology",
+  "reading_time": "2 min",
+  "puzzle": "Why does so much modern technology trace back to one tiny component?",
+  "insight": "The transistor can switch and amplify electrical signals using far less space and energy than older vacuum tubes, which made modern electronics practical.",
+  "key_ideas": [
+    "Transistors control current flow.",
+    "They replaced bulkier, hotter, less reliable tubes.",
+    "Billions can be packed onto a single chip."
+  ],
+  "mind_blower": "Your phone depends on microscopic switches flipping on and off billions of times each second.",
+  "next_curiosity": "If transistors made computing possible, what limits how small they can become?",
+  "next_lessons": [
+    "internet-origin",
+    "gps"
+  ],
+  "narration_text": "Why does so much modern technology trace back to one tiny component? The transistor can switch and amplify electrical signals using far less space and energy than older vacuum tubes, which made modern electronics practical. Transistors control current flow. They replaced bulkier, hotter, less reliable tubes. Billions can be packed onto a single chip. Your phone depends on microscopic switches flipping on and off billions of times each second. If transistors made computing possible, what limits how small they can become?"
+}

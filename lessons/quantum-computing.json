@@ -1,0 +1,20 @@
+{
+  "slug": "quantum-computing",
+  "title": "Quantum Computing",
+  "topic": "technology",
+  "reading_time": "2 min",
+  "puzzle": "Why do people think quantum computers could solve certain problems so differently?",
+  "insight": "Quantum computers use quantum states that can behave in ways classical bits cannot, letting some calculations scale in unusual and powerful ways.",
+  "key_ideas": [
+    "Quantum bits can exist in superposed states.",
+    "Entanglement can link information across qubits.",
+    "Quantum advantage depends on the problem, not magic speed for everything."
+  ],
+  "mind_blower": "A quantum computer is strange not because it breaks math, but because it computes using the deep rules of nature itself.",
+  "next_curiosity": "If quantum machines are powerful for some tasks, what keeps them so difficult to build?",
+  "next_lessons": [
+    "semiconductor-fabs",
+    "operating-systems"
+  ],
+  "narration_text": "Why do people think quantum computers could solve certain problems so differently? Quantum computers use quantum states that can behave in ways classical bits cannot, letting some calculations scale in unusual and powerful ways. Quantum bits can exist in superposed states. Entanglement can link information across qubits. Quantum advantage depends on the problem, not magic speed for everything. A quantum computer is strange not because it breaks math, but because it computes using the deep rules of nature itself. If quantum machines are powerful for some tasks, what keeps them so difficult to build?"
+}

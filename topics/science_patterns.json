@@ -1,0 +1,12 @@
+{
+  "topic_id": "science_patterns",
+  "title": "Science Patterns",
+  "description": "A short track about the hidden systems shaping life, Earth, and energy.",
+  "lessons": [
+    "evolution",
+    "photosynthesis",
+    "plate-tectonics",
+    "gene-editing",
+    "water-cycle"
+  ]
+}

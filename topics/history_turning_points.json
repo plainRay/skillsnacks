@@ -1,0 +1,16 @@
+{
+  "topic_id": "history_turning_points",
+  "title": "History Turning Points",
+  "description": "Moments when empires, machines, conflict, and knowledge changed the human story.",
+  "lessons": [
+    "roman-empire",
+    "printing-press",
+    "silk-road",
+    "industrial-revolution",
+    "moon-landing",
+    "cold-war-space-race",
+    "library-of-alexandria",
+    "black-death",
+    "codebreaking"
+  ]
+}

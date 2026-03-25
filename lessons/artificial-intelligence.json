@@ -1,0 +1,20 @@
+{
+  "slug": "artificial-intelligence",
+  "title": "Artificial Intelligence",
+  "topic": "technology",
+  "reading_time": "2 min",
+  "puzzle": "When did people start believing machines might imitate thinking?",
+  "insight": "Artificial intelligence began as the idea that reasoning, learning, and problem-solving might be described as processes machines could perform.",
+  "key_ideas": [
+    "Early AI focused on logic and symbolic rules.",
+    "Later progress came from data-heavy learning systems.",
+    "The field has advanced in waves of optimism and setbacks."
+  ],
+  "mind_blower": "AI started not with smart machines, but with the bold claim that thinking itself might be studied like engineering.",
+  "next_curiosity": "If intelligence can be modeled, which parts of human thought remain hardest to reproduce?",
+  "next_lessons": [
+    "blockchain",
+    "quantum-computing"
+  ],
+  "narration_text": "When did people start believing machines might imitate thinking? Artificial intelligence began as the idea that reasoning, learning, and problem-solving might be described as processes machines could perform. Early AI focused on logic and symbolic rules. Later progress came from data-heavy learning systems. The field has advanced in waves of optimism and setbacks. AI started not with smart machines, but with the bold claim that thinking itself might be studied like engineering. If intelligence can be modeled, which parts of human thought remain hardest to reproduce?"
+}

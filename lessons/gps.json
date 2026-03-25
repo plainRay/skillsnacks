@@ -1,0 +1,20 @@
+{
+  "slug": "gps",
+  "title": "GPS",
+  "topic": "technology",
+  "reading_time": "2 min",
+  "puzzle": "How can your phone find you by listening to satellites?",
+  "insight": "GPS compares timing signals from multiple satellites. Because radio waves travel at a known speed, tiny timing differences become a location estimate.",
+  "key_ideas": [
+    "Each satellite sends time and position information.",
+    "Travel time becomes an estimate of distance.",
+    "Several distances together reveal a position."
+  ],
+  "mind_blower": "Navigation works because your device can measure incredibly small differences in time.",
+  "next_curiosity": "If timing matters so much, what happens when those clocks drift?",
+  "next_lessons": [
+    "artificial-intelligence",
+    "blockchain"
+  ],
+  "narration_text": "How can your phone find you by listening to satellites? GPS compares timing signals from multiple satellites. Because radio waves travel at a known speed, tiny timing differences become a location estimate. Each satellite sends time and position information. Travel time becomes an estimate of distance. Several distances together reveal a position. Navigation works because your device can measure incredibly small differences in time. If timing matters so much, what happens when those clocks drift?"
+}

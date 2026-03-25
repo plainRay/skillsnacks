@@ -1,0 +1,15 @@
+{
+  "topic_id": "space_curiosity",
+  "title": "Space Curiosity",
+  "description": "A fast-moving track through the origin, structure, and strange behavior of the cosmos.",
+  "lessons": [
+    "big-bang",
+    "expanding-universe",
+    "cosmic-microwave-background",
+    "dark-matter",
+    "dark-energy",
+    "first-stars",
+    "supernova",
+    "black-holes"
+  ]
+}

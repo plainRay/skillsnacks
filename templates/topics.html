@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Topics | SkillSnacks{% endblock %}
+
+{% block content %}
+  <section class="panel">
+    <p class="eyebrow">Domains and subtopics</p>
+    <h1>Topics</h1>
+    <p class="lede">Browse broad domains first, then jump into curated subtopics.</p>
+
+    <div class="topic-domain-grid">
+      {% for group in topic_groups %}
+        <section class="domain-card">
+          <h2>{{ group.domain }}</h2>
+          <div class="stack-list">
+            {% for topic in group.topics %}
+              <a
+                class="stack-card"
+                href="{{ url_for('topic', topic_id=topic.topic_id) }}"
+                data-topic-progress
+                data-topic-id="{{ topic.topic_id }}"
+                data-topic-total="{{ topic.ordered_lessons|length }}"
+                data-topic-lessons="{{ topic.ordered_lessons | map(attribute='slug') | join(',') }}"
+              >
+                <strong>{{ topic.title }}</strong>
+                <span>{{ topic.description }}</span>
+                <span>{{ topic.ordered_lessons|length }} lesson{{ '' if topic.ordered_lessons|length == 1 else 's' }}</span>
+                <div class="topic-progress-block">
+                  <span data-topic-progress-text>0 / {{ topic.ordered_lessons|length }} lessons completed</span>
+                  <div class="topic-progress-bar" aria-hidden="true">
+                    <span data-topic-progress-fill></span>
+                  </div>
+                </div>
+              </a>
+            {% endfor %}
+          </div>
+        </section>
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}

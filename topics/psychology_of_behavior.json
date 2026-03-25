@@ -1,0 +1,12 @@
+{
+  "topic_id": "psychology_of_behavior",
+  "title": "Psychology of Behavior",
+  "description": "A short track about attention, motivation, memory, and mental habits.",
+  "lessons": [
+    "dopamine",
+    "decision-bias",
+    "memory-illusion",
+    "habit-formation",
+    "curiosity"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "topic_id": "technology_breakthroughs",
+  "title": "Technology Breakthroughs",
+  "description": "A track on the inventions and systems behind modern digital life.",
+  "lessons": [
+    "transistor",
+    "internet-origin",
+    "gps",
+    "artificial-intelligence",
+    "blockchain",
+    "quantum-computing",
+    "semiconductor-fabs",
+    "operating-systems",
+    "fiber-optics"
+  ]
+}

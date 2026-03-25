@@ -1,0 +1,20 @@
+{
+  "slug": "semiconductor-fabs",
+  "title": "Semiconductor Fabs",
+  "topic": "technology",
+  "reading_time": "2 min",
+  "puzzle": "Why are chip factories among the most demanding buildings humans make?",
+  "insight": "Semiconductor fabrication requires extreme precision, clean rooms, and tightly controlled chemical processes to shape microscopic circuits onto wafers.",
+  "key_ideas": [
+    "Dust that looks tiny to you can ruin a chip.",
+    "Manufacturing uses layer after layer of precise patterning.",
+    "Fabs are expensive because precision must stay consistent at scale."
+  ],
+  "mind_blower": "A modern chip is not just designed like a tiny city. It is manufactured with rules stricter than many laboratories.",
+  "next_curiosity": "If making chips is so difficult, why does global access to them matter so much?",
+  "next_lessons": [
+    "operating-systems",
+    "fiber-optics"
+  ],
+  "narration_text": "Why are chip factories among the most demanding buildings humans make? Semiconductor fabrication requires extreme precision, clean rooms, and tightly controlled chemical processes to shape microscopic circuits onto wafers. Dust that looks tiny to you can ruin a chip. Manufacturing uses layer after layer of precise patterning. Fabs are expensive because precision must stay consistent at scale. A modern chip is not just designed like a tiny city. It is manufactured with rules stricter than many laboratories. If making chips is so difficult, why does global access to them matter so much?"
+}

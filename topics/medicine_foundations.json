@@ -1,0 +1,14 @@
+{
+  "topic_id": "medicine_foundations",
+  "title": "Medicine Foundations",
+  "description": "A compact track through immunity, treatment, microbes, and medical language.",
+  "lessons": [
+    "immune-system",
+    "vaccines",
+    "placebo-effect",
+    "medical-prefixes",
+    "antibiotics",
+    "anesthesia",
+    "microbiome"
+  ]
+}

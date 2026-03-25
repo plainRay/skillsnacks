@@ -1,0 +1,20 @@
+{
+  "slug": "internet-origin",
+  "title": "The Origin of the Internet",
+  "topic": "technology",
+  "reading_time": "2 min",
+  "puzzle": "How did a research network become something billions use every day?",
+  "insight": "The internet grew from systems designed to move information across distributed networks. Shared communication rules let many separate machines join one global network.",
+  "key_ideas": [
+    "Protocols let different computers understand one another.",
+    "Distributed design made the network resilient.",
+    "Growth came from linking many independent systems together."
+  ],
+  "mind_blower": "The internet is less a single machine than a giant agreement about how machines talk.",
+  "next_curiosity": "If the internet depends on shared rules, who decides and maintains those rules?",
+  "next_lessons": [
+    "gps",
+    "artificial-intelligence"
+  ],
+  "narration_text": "How did a research network become something billions use every day? The internet grew from systems designed to move information across distributed networks. Shared communication rules let many separate machines join one global network. Protocols let different computers understand one another. Distributed design made the network resilient. Growth came from linking many independent systems together. The internet is less a single machine than a giant agreement about how machines talk. If the internet depends on shared rules, who decides and maintains those rules?"
+}
